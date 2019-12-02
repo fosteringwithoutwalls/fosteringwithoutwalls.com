@@ -1,0 +1,17 @@
+.slide1,.slide2,.slide3{
+  overflow: hidden;
+  background-image: url("../../../assets/slide1.jpg");
+  background-size: cover;
+}
+
+.about{
+z-index: -1;
+background-image: url("../../../assets/penBG.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.jumbotron{
+  background-color: black;
+  font-family: 'Alatsi', sans-serif;
+  color: whitesmoke;
+}

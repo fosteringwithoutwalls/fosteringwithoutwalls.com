@@ -1,0 +1,12 @@
+.about{
+  z-index: -1;
+  background-image: url("../../../assets/penBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 63.4vh;
+  }
+.jumbotron{
+  background-color: black;
+  font-family: 'Alatsi', sans-serif;
+  color: whitesmoke;
+}

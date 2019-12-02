@@ -1,0 +1,22 @@
+nav{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+.navbar-brand{
+  width: 10%;
+}
+.responsive{
+  height: auto;
+  width: 100%;
+}
+li:hover{
+  border-bottom: 2px solid #42bca0;
+}
+@media only screen and (max-width: 990px) {
+  .navbar-brand{
+    width: 20%;
+  }
+}

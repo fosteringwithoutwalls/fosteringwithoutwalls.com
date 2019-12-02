@@ -1,0 +1,34 @@
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-img-top "></div>
+      <div class="card-body">
+        <h2 class="card-title">Email Us</h2>
+        <form #contactForm action="https://formspree.io/contact@fosteringwithoutwalls.com" enctype="multipart/form-data" method="POST" class="needs-validation">
+          <label>
+            Your email:
+            <input type="text"  name="_replyto" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <div class="invalid-tooltip">
+              Please enter a valid email address.
+            </div>
+          </label><br>
+          <label>
+            Your message:
+            <textarea name="message" required></textarea>
+          </label>
+
+          <!-- your other form fields go here -->
+          <!-- <label>
+              Your file:
+              <input type="file" name="upload" accept=".jpg, .pdf, .doc">
+            </label> -->
+            <input type="text" name="_gotcha" style="display:none" />
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

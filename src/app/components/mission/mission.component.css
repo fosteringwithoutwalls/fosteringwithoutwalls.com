@@ -1,0 +1,43 @@
+.parallax1{
+  background-image: url("../../../assets/silhouette-photography-of-group-of-people-jumping-during-1000445.jpg");
+  height: 25%;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  background-image: url("../../../assets/silhouette-photography-of-group-of-people-jumping-during-1000445.jpg");
+  height: 25%;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+  background-image: url("../../../assets/focus-photo-of-4-wooden-pawn-figurine-209728.jpg");
+  height: 25%;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h4{
+  text-align: center;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 40px;
+}
+p{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container1,.container2,.container3{
+border-top: black solid 2px;
+border-bottom: black solid 2px;
+background-color: whitesmoke;
+}

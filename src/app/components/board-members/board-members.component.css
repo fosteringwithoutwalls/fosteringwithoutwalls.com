@@ -1,0 +1,28 @@
+.container{
+  margin-left: 1%;
+  width: 100%;
+}
+.card-img-top{
+  width: 25%;
+  border-radius: 55%;
+  margin-top: 3%;
+  margin-left: 5%;
+  border: solid 1px black;
+}
+.card{
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 12px 12px 22px black;
+}
+p{
+  font-size: 18px;
+}
+h1{
+  color: white;
+  padding-top: 3%;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Alatsi', sans-serif;
+}
+h2{
+  font-family: 'Alatsi', sans-serif;
+}

@@ -1,0 +1,66 @@
+
+.container{
+  margin-left: 1%;
+  width: 100%;
+}
+.card-img-top{
+  width: 25%;
+  border-radius: 55%;
+  margin-top: 3%;
+  margin-left: 5%;
+  border: solid 1px black;
+}
+.card{
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 12px 12px 22px black;
+}
+p{
+  font-size: 18px;
+}
+h1{
+  color: white;
+  padding-top: 3%;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Alatsi', sans-serif;
+}
+h2{
+  font-family: 'Alatsi', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  color: black;
+}
+input, textarea{
+  width: 100%;
+  border-radius: 25px;
+  padding-left: 25px;
+}
+textarea{
+  height: 200px;
+}
+label{
+  width: 100%;
+}
+form{
+  width: 100%;
+}
+button:hover{
+  color: whitesmoke;
+  background-color: black;
+}
+button{
+  width: 30%;
+  color: black;
+  background-color: #42bca0;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 22px;
+}
+button:disabled:hover{
+  color: black;
+  background-color: #42bca0
+}

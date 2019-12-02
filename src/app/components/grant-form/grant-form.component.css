@@ -1,0 +1,90 @@
+
+li{
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+/* .container{
+  background-color: white;
+  margin-left: 2%;
+  width: 100%;
+  height: auto;
+  /* border: black solid 2px; */
+  /* border-radius: 5px;
+  box-shadow: 2px 3px 10px black;
+  padding-bottom: 2%;
+
+}
+.instruction{
+  margin-left: 10%;
+}
+h2{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.form{
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+a{
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  padding-top: 3px;
+  color: #e700e4;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 225px;
+  display: inline;
+  text-shadow: none;
+}
+a:hover{
+  color: white;
+  background-color: #e700e4;
+  text-decoration: none;
+}  */
+.container{
+  margin-left: 1%;
+  width: 100%;
+}
+.card-img-top{
+  width: 25%;
+  border-radius: 55%;
+  margin-top: 3%;
+  margin-left: 5%;
+  border: solid 1px black;
+}
+.card{
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 12px 12px 22px black;
+}
+p{
+  font-size: 18px;
+}
+h1{
+  color: white;
+  padding-top: 3%;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Alatsi', sans-serif;
+}
+h2{
+  font-family: 'Alatsi', sans-serif;
+}
+.btn{
+  color: whitesmoke;
+  background-color: black;
+}
+.btn:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  color: black;
+}

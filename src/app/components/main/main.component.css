@@ -1,0 +1,45 @@
+h1 {
+  font-family: "Alatsi", sans-serif;
+  color: whitesmoke;
+}
+.jumbotron {
+  background-color: black;
+  padding-bottom: 10px;
+}
+p {
+  color: whitesmoke;
+  margin-bottom: 3px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.lead {
+  display: inline-block;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.button {
+  background-color: #42bca0;
+  color: black;
+
+  padding-left: 10px !important;
+  font-family: "Alatsi", sans-serif;
+}
+.button:hover {
+  background-color: #42bca0;
+  color: whitesmoke;
+}
+.button {
+  margin-top: 12px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* border-radius: 20px; */
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  padding-right: 10px;
+}
