@@ -40,6 +40,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+fosteringwithoutwalls_com.csr
+fosteringwithoutwalls_com.key
 
 # System Files
 .DS_Store
