@@ -5,6 +5,20 @@ const cors = require('cors');
 // const html = __dirname + 'src';
 const bodyParser = require('body-parser')
 
+const forceSSL = function() {
+  return function (req, res, next) {
+    if (req.headers['x-forwarded-proto'] !== 'https') {
+      return res.redirect(
+       ['https://', req.get('Host'), req.url].join('')
+      );
+    }
+    next();
+  }
+}
+// Instruct the app
+// to use the forceSSL
+// middleware
+app.use(forceSSL());
 app.use(bodyParser());
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -16,6 +30,7 @@ app.use(express.static('dist/fww'));
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname,'/dist/fww/index.html'));
 });
+
 
 app.listen(process.env.PORT || 4200, function() {
   console.log('Listening on port ' + this.address().port);
