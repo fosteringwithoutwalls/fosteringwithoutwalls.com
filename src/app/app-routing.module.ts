@@ -13,7 +13,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { DfComponent } from './components/df/df.component'
 
 const routes: Routes = [
- { path: '', redirectTo: '/home', pathMatch: 'full', component: MainComponent},
+ { path: '', redirectTo: 'home', pathMatch: 'full'},
+ {path: 'home', component: MainComponent},
  {path: 'about', component: AboutComponent},
 {path: 'contact', component: ContactComponent},
 {path: 'donate', component: DonateComponent},
