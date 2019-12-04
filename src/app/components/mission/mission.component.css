@@ -25,6 +25,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax4{
+  background-image: url("../../../assets/focus-photo-of-4-wooden-pawn-figurine-209728.jpg");
+  height: 25%;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h4{
   text-align: center;
   font-family: 'Alatsi', sans-serif;
@@ -40,4 +49,21 @@ p{
 border-top: black solid 2px;
 border-bottom: black solid 2px;
 background-color: whitesmoke;
+}
+
+@media only screen and (max-device-width: 767px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+   .parallax3 {
+    background-attachment: scroll;
+  }
+  .parallax1 {
+    background-image: url("../../../assets/vision.jpg");
+    background-attachment: scroll;
+  }
+  .parallax4{
+    background-image: url("../../../assets/community.jpg");
+    background-attachment: scroll;
+  }
 }
