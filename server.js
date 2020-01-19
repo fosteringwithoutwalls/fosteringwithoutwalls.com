@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const cors = require('cors');
 // const html = __dirname + 'src';
-const bodyParser = require('body-parser')
+// const bodyParser = require('body-parser')
 
 const forceSSL = function() {
   return function (req, res, next) {
@@ -19,7 +19,8 @@ const forceSSL = function() {
 // to use the forceSSL
 // middleware
 app.use(forceSSL());
-app.use(bodyParser());
+app.use(express.urlencoded());
+app.use(express.json());
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
