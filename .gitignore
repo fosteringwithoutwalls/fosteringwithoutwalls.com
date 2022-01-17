@@ -42,7 +42,8 @@ testem.log
 /typings
 fosteringwithoutwalls_com.csr
 fosteringwithoutwalls_com.key
-
+example_com.csr
+example_com.key
 # System Files
 .DS_Store
 Thumbs.db
